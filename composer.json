@@ -1,0 +1,23 @@
+{
+    "name": "spress-add-ons/clean-blog-theme",
+    "type": "spress-theme",
+    "description": "Clean blog theme for Spress design by Start Bootstrap",
+    "keywords": ["bootstrap", "startbootstrap", "blog", "responsive", "template", "spress"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Victor Puertas",
+            "email": "vpgugr@gmail.com",
+            "homepage": "http://yosymfony.com"
+        }
+    ],
+    "require": {
+        "spress/spress-installer": "2.0.*"
+    },
+    "extra": {
+        "spress_name": "clean_blog",
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
