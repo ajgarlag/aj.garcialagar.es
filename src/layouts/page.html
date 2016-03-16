@@ -33,7 +33,18 @@ layout: default
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
 			{{ page.content }}
+
+            {% if page.generator is not defined %}
+            <p class="text-right">
+                Any typo or problem?
+                <a href="{{site.github_edit_url_base}}/{{ page.id }}">
+                     Edit this page on Github <i class="fa fa-github"></i>
+                </a>
+            </p>
+            {% endif %}
+
 		</div>
 	</div>
 </div>

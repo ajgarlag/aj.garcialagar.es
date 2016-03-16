@@ -48,6 +48,13 @@ layout: default
 
 				{{ page.content }}
 
+                <p class="text-right">
+                    Any typo or problem?
+                    <a href="{{site.github_edit_url_base}}/{{ page.id }}">
+                         Edit this page on Github <i class="fa fa-github"></i>
+                    </a>
+                </p>
+
                 <hr>
 
                 {% if (page.comments is defined and page.comments) or (page.comments is not defined and site.comments.enabled) or (page.comment_posts) %}
