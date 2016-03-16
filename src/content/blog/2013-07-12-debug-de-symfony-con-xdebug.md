@@ -26,7 +26,14 @@ Aquí está ese pequeño trozo de código que tantas veces me ha ayudado:
 
 ```php
 //This check tries to detect a XDebug session to prevent the load of class cache
-if (!extension_loaded('xdebug') || (!isset($_REQUEST['XDEBUG_SESSION_START']) && !isset($_COOKIE['XDEBUG_SESSION']) && ini_get('xdebug.remote_autostart') == false)) {
+if (
+    !extension_loaded('xdebug') ||
+    (
+        !isset($_REQUEST['XDEBUG_SESSION_START']) &&
+        !isset($_COOKIE['XDEBUG_SESSION']) &&
+        ini_get('xdebug.remote_autostart') == false
+    )
+) {
     $kernel->loadClassCache();
 }
 ```
