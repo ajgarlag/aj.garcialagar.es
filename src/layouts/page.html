@@ -4,17 +4,19 @@ layout: default
 {% block content %}
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.url }}/{{ page.header_img.url | default(site.header_img.url) }}')">
+<header class="intro-header" style="background-image: {% if page.header_img.darken is defined %}linear-gradient(rgba(0,0,0,{{ page.header_img.darken  }}),rgba(0,0,0,{{ page.header_img.darken  }})), {% endif %}url('{{ site.url }}/{{ page.header_img.url | default(site.header_img.url) }}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
                     <h1>{{ page.title | default(site.title) }}</h1>
+                    {% if page.description %}
                     <hr class="small">
                     <span class="subheading">{{ page.description }}</span>
+                    {% endif %}
                     {% if page.header_img.author %}
                     <br>
-                    <span class="meta">Photo by 
+                    <span class="meta pull-right"><i class="fa fa-camera"></i> by
                         {% if page.header_img.author_url %}
                         <a href="{{ page.header_img.author_url }}">{{ page.header_img.author }}</a>
                         {% else %}

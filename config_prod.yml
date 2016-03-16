@@ -1,0 +1,10 @@
+url: "http://aj.garcialagar.es"
+
+comments:
+    enabled: true
+    disqus_shortname: "ajgarcialagares"
+
+google_analytics:
+    enabled: true
+    id: UA-10547802-1
+    domain: aj.garcialagar.es

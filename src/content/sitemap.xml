@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.blog %}
+    {% if post.generator is not defined %}
+   <url>
+       <loc>{{site.url}}{{post.url}}</loc>
+        <lastmod>{{post.mtime|date(constant('DATE_ATOM'))}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>{% if post.extension == 'md' %}0.8{% else %}0.6{% endif %}</priority>
+   </url>
+   {% elseif 'page' not in post.path %}
+   <url>
+       <loc>{{site.url}}{{post.url}}</loc>
+        <lastmod>{{post.mtime|date(constant('DATE_ATOM'))}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+   </url>
+   {% endif %}
+   {% endfor %}
+</urlset>

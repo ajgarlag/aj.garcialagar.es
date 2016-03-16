@@ -1,24 +1,30 @@
-# Site settings
-title: "Clean Blog"
+title: "Yet Another Boring Web"
 
 # Default header image
 header_img:
-  url: "assets/img/home-bg.jpg"
+    url: "assets/img/home-bg.jpg"
+
+collections:
+  blog:
+    output: true
+    sort_by: 'date'
+    sort_type: 'descending'
+    comment_posts: []
 
 comments:
-  enabled: false
-  disqus_shortname: ""
+    enabled: false
+    disqus_shortname: "ajgarcialagares"
+
+google_analytics:
+    enabled: true
+    id: UA-10547802-1
+    domain: aj.garcialagar.es
 
 social_networks:
-    twitter: "spress_cms" # Your id without @
+    twitter: "ajgarlag"
+    github: "https://github.com/ajgarlag"
+    email: aj@garcialagar.es
     facebook:  # Your URL
     instagram: # Your id
-    github: "https://github.com/spress/Spress"
     dribbble: # Your id
     linkedin: # Your URL
-    email: # Your email adress you@yoourDomain.com
-
-# Forms
-forms:
-    contact:
-        getsimpleform_api_token: 

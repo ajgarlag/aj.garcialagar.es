@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description | default(site.description) }}">
     <meta name="generator" content="Spress v{{ spress.version }}">
+    {% if page.location %}<meta http-equiv="refresh" content="0;URL='{{page.location}}'" />{% endif %}
 
-    <title>{{ page.title ? page.title ~ ' - ' ~ site.title : site.title }}</title>
+    <title>{{ page.title ? page.title ~ ' | ' ~ site.title : site.title }} - Antonio J. García Lagar</title>
 
     <link rel="canonical" href="{{ site.url ~ page.url | replace({'index.html' : ''}) }}">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/clean-blog.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/ajgl.min.css">
 
     <!-- Highlight js CSS -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.2.0/styles/solarized-dark.min.css">
 
     <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -30,5 +31,20 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Favicon by http://www.favicomatic.com/ -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.url }}/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.url }}/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-128.png" sizes="128x128" />
 
 </head>
