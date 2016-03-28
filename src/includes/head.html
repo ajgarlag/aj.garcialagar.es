@@ -6,6 +6,7 @@
     <meta name="description" content="{{ page.description | default(site.description) }}">
     <meta name="generator" content="Spress v{{ spress.version }}">
     {% if page.location %}<meta http-equiv="refresh" content="0;URL='{{page.location}}'" />{% endif %}
+    <link rel="home" type="application/rss+xml" href="{{ site.url }}/rss.xml" />
 
     <title>{{ page.title ? page.title ~ ' | ' ~ site.title : site.title }} - Antonio J. García Lagar</title>
 
