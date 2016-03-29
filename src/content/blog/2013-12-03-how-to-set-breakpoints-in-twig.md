@@ -38,7 +38,7 @@ Once installed and configured, the new funcion can be called inside your twig te
 Remember that you must register the extension within the twig environment with
 ```php
 /* @var $twig Twig_Environment */
-$twig->addExtension(new Ajgl\Twig\Extension\Breakpoint());
+$twig->addExtension(new Ajgl\Twig\Extension\BreakpointExtension());
 ```
 
 If you are writing a Symfony Application, you can use the provided bundle (included with the package) which will register the extension automatically:
