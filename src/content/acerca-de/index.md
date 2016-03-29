@@ -1,16 +1,28 @@
 ---
 title: Acerca de
-date: "2009-09-23T16:34:31+00:00"
 author: ajgarlag
 layout: page
 permalink: none
 ---
-Estas _en mi blog_ (@myBlog); ¿pero quien soy yo?
+## Antonio J. García Lagar
 
-Bueno, soy un arquitecto español interesado en la informática, o más bien un informático (desarrollador web y administrador de sistemas) que estudió Arquitectura. Estoy particularmente interesado en los temas relacionados con el _software_ libre. Hace algunos años comencé a trabajar en una empresa de informática, y allí he aprendido algunas cuantas cosas interesantes sobre Linux, desarrollo Web y PHP, administración de sistemas, etc.
+Informático en una Pyme: Director Técnico, Desarrollador Web, Administrador de Sistemas, Administrador de Redes, Lector de Manuales de Instrucciones, etc. Algunos lo llaman ***DevOps***.
 
-Al fin me he decidido a escribir mi blog para compartir aquello que considero interesante con cualquiera que quiera leerlo. Serán temas relacionados con la Arquitectura, la Informática, o con ambas cosas, pero al final escribiré sobre cualquier cosa que me apetezca.
+### Arquitectura.
 
-A veces escribiré en inglés (o algo que se le parezca), a veces en español, a veces en ambos idiomas. Prometo etiquetar todos los envíos para que puedas suscribirte al idioma que prefieras..
+En 1997 llegué a Madrid para estudiar Arquitectura en la [Escuela Técnica Superior de Arquitectura de Madrid](http://etsamadrid.aq.upm.es). Para poder cursar las asignaturas de CAD mis padres me compraron mi primer ordenador; y en la primera semana tuve que reinstalar el <abbr title="Sistema Operativo">SO</abbr> Windows 95 tres veces.
 
-Pues eso es todo. Disfrútalo.
+En 1998 tuve acceso a un CD con Mandrake **Linux** y al intentar instalarlo, tuve algunos problemas que me obligaron a recompilar el *kernel* sin saber muy bien qué significaba *compilar* o *kernel*: fue mi primer contacto con el ***Software* Libre**.
+
+En 2001, para pagar mis estudios, entré a trabajar en una empresa informática, en la que sigo actualmente y en la que he tenido la oportunidad de continuar desarrollando mi carrera de forma autodidacta, siempre leyendo y aprendiendo.
+
+### Arquitectura Web.
+En 2004, tras unos años interesado en la **Administración de Sistemas**, leí mi primer libro sobre programación (sobre Modula2), y descubrí una nueva pasión: el **Desarrollo de *Software***.
+
+En 2005, hicimos una reescritura completa de la principal aplicación de la empresa, sobre arquitectura LAPP y con ello me convertí en **Desarrollador *Web***, con **PHP** como principal lenguaje de programación.
+
+Una vez finalizados mis estudios de Arquitectura decidí continuar mi carrera en el mundo de la Informática.
+
+Y aquí sigo, leyendo, aprendiendo y disfrutando con la formación autodidacta gracias al conocimiento que otras muchas personas deciden, de forma desinteresada, compartir a través de la red.
+
+Para saber, visita [mi perfil de Github](https://github.com/ajgarlag).
