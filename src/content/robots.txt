@@ -2,7 +2,7 @@ User-agent: *
 Disallow: /assets
 
 User-agent: *
-Disallow: /catetory
+Disallow: /category
 
 User-agent: *
 Disallow: /dokuwiki
