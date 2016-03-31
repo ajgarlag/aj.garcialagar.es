@@ -9,6 +9,7 @@ tags:
   - spare time
   - videogames
   - en
+redirect_from: /blog/ive-bought-a-game/
 ---
 Yes, I know, this shouldn't be in the news. A lot of people buy games everyday, but this time it was different. I was able to decide the right price for the game.<img class="alignright" style="float: right;" src="http://i0.wp.com/2dboy.com/blog/wp-content/uploads/2009/10/WoG_happybday1.jpg?resize=484%2C244" alt="" data-recalc-dims="1" />
 

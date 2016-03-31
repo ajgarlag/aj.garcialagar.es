@@ -14,6 +14,7 @@ tags:
   - spare time
   - virtualization
   - en
+redirect_from: /blog/virtualization-with-kvm-and-debian-lenny/
 comment_posts:
   - author: Antonio J. García Lagar
     date: "2010-01-28T15:58:01+00:00"

@@ -1,4 +1,5 @@
 build/
+src/plugins/
 vendor/
 node_modules/
 composer.lock

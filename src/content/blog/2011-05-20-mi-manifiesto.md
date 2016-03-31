@@ -6,6 +6,7 @@ layout: post
 tags:
   - personal
   - es
+redirect_from: /blog/mi-manifesto/
 ---
 Creo que el movimiento social que está teniendo lugar en España durante estos días protagonizado por una multitud de personas con intereses, ideario y opiniones diversas es lo mejor que le ha sucedido a la sociedad española en muchos años de democracia.
 

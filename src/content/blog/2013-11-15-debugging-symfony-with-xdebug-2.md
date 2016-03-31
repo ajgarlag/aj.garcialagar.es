@@ -10,6 +10,7 @@ header_img:
 tags:
   - symfony
   - en
+redirect_from: /blog/debugging-symfony-with-xdebug-2/
 comment_posts:
   - author: Tobias Sjösten
     date: "2015-01-06T12:31:17+00:00"

@@ -6,6 +6,7 @@ author: ajgarlag
 tags:
   - blogging
   - en
+redirect_from: /blog/no-comment/
 ---
 First post, nothing more to say.
 

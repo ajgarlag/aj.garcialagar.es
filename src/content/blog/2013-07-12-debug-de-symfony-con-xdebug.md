@@ -11,6 +11,7 @@ header_img:
 tags:
   - symfony
   - es
+redirect_from: /blog/debug-de-symfony-con-xdebug/
 ---
 Hace algunas semanas asistí en [#desymfony](http://twitter.com/search?q=%23desymfony)  2013, la [conferencia española de Symfony](http://desymfony.com), a una charla de [@carlos_granados](http://twitter.com/carlos_granados) titulada &#8220;[_Por qué Symfony2 es tan rápido_](http://es.slideshare.net/carlosgranados/por-que-symfony2-es-tan-rpido)&#8221; en la que Carlos nos explicó algunos de los mecanismos internos utilizados por Symfony para acelerar la respuesta a las peticiones HTTP.
 

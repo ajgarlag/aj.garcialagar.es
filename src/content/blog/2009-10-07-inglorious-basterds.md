@@ -8,6 +8,7 @@ tags:
   - personal
   - spare time
   - es
+redirect_from: /blog/inglorious-basterds/
 ---
 ![Buy this poster at tsout.com](http://static1.squarespace.com/static/550db867e4b051bbaff5260a/553afc3ee4b0f281a4ea06f8/553afe0fe4b09e094f86db6d/1429929487543/inglourious_var.jpg?format=500w)
 

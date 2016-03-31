@@ -3,6 +3,7 @@ title: Acerca de
 author: ajgarlag
 layout: page
 permalink: none
+redirect_from: /blog/acerca-de/
 ---
 ## Antonio J. García Lagar
 

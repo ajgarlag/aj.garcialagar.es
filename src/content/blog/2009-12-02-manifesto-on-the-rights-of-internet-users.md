@@ -7,6 +7,7 @@ tags:
   - blogging
   - internet
   - en
+redirect_from: /blog/manifesto-on-the-rights-of-internet-users/
 ---
 A group of journalists, bloggers, professionals and creators want to express their firm opposition to the inclusion in a Draft Law of some changes to Spanish laws restricting the freedoms of expression, information and access to culture on the Internet. We also declare that:
 

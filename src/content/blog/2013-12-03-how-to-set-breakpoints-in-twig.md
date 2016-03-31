@@ -11,6 +11,7 @@ header_img:
 tags:
   - symfony
   - en
+redirect_from: /blog/how-to-set-breakpoints-in-twig/
 ---
 After last [PHPMad](http://phpmad.org "PHP Madrid User Group") meetup, I was talking with other two group members about our daily work with the [Syfmony](http://www.symfony.com) framework and the Symfony Ecosystem. One of them told me that he loves Twig but sometimes he would like to set a breakpoint in a [Twig](http://twig.sensiolabs.org) template to debug generated code and the variables passed to the template.
 

@@ -9,6 +9,7 @@ tags:
   - webdev
   - zf
   - en
+redirect_from: /blog/dojo-jsonreststore-and-transaction-referencing/
 ---
 Last weeks I need to work with a tree structure. Since I'm using [Zend Framework](http://framework.zend.com), I decided to use the [Dojo Toolkit](http://www.dojotoolkit.org/) to make it.
 

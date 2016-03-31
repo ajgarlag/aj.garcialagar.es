@@ -7,6 +7,7 @@ tags:
   - it
   - personal
   - es
+redirect_from: /blog/clases-en-arquigrafia/
 ---
 Ayer terminé la primera asignatura de las dos que, junto con [Vicente Luque](http://www.it.uc3m.es/vlc) y Pablo Palacios, voy a impartir en el **III Máster en Comunicación Digital y Multimedia del Proyecto de Arquitectura** de la **Universidad Politécnica de Madrid**. [Máster de Arquigrafía](http://www.arquigrafia.es) para los amigos.
 

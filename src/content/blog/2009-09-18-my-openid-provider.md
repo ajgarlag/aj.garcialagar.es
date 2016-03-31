@@ -8,6 +8,7 @@ tags:
   - internet
   - it
   - en
+redirect_from: /blog/my-openid-provider/
 ---
 Well, I've reset my digital identity: new [twitter](http://twitter.com/ajgarlag) and [identi.ca](http://indenti.ca/ajgarlag) usernames, new [last.fm](http://last.fm/user/ajgarlag) account, new [del.icio.us](http://del.icio.us/ajgarlag) (I prefer the old domain 😊) account, etc.
 

@@ -10,6 +10,7 @@ header_img:
 tags:
   - personal
   - en
+redirect_from: /blog/reboot-complete/
 ---
 ```bash
 e2fsck 1.42.5 (29-Jul-2012)

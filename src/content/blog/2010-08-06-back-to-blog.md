@@ -8,6 +8,7 @@ tags:
   - linux
   - personal
   - en
+redirect_from: /blog/back-to-blog/
 ---
 Long time since my last post, but as you can see at the @NET block at the sidebar, I'm still alive.
 

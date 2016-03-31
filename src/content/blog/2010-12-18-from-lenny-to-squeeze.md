@@ -13,6 +13,7 @@ tags:
   - linux
   - os
   - en
+redirect_from: /blog/from-lenny-to-squeeze/
 ---
 I'm back again and I'm here to stay (that's my hope).
 

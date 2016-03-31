@@ -6,6 +6,7 @@ layout: post
 tags:
   - internet
   - es
+redirect_from: /blog/la-alternativa-a-la-leysinde/
 ---
 Como ciudadano y usuario de internet, vengo siguiendo con sumo interés todo lo relacionado con la mal llamada [#leysinde](http://twitter.com/search?q=%23leysinde); pensando si escribir algo a respecto, pero nunca lo hago por dos razones:
 
