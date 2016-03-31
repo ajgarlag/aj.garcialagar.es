@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /assets
+
+User-agent: *
+Disallow: /catetory
+
+User-agent: *
+Disallow: /dokuwiki
