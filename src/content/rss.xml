@@ -5,8 +5,7 @@
         <link>{{ site.url }}</link>
         <description>RSS feed for {{ site.title }}</description>
         <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
-        {% for post in site.blog | slice(0, site.max_item, true) %}
-            {% if post.generator is not defined %}
+        {% for post in site.posts | slice(0, site.max_item, true) %}
             <item>
                 <title>{{ post.title }}</title>
                 <description><![CDATA[{{ post.content }}]]></description>
@@ -14,7 +13,6 @@
                 <pubDate>{{ post.date | date("D, d M Y H:i:s O") }}</pubDate>
                 <guid>{{ site.url }}{{ post.url }}</guid>
             </item>
-            {% endif %}
         {% endfor %}
     </channel>
 </rss>

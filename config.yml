@@ -5,10 +5,11 @@ header_img:
     url: "assets/img/home-bg.jpg"
 
 collections:
-  blog:
+  posts:
     output: true
     sort_by: 'date'
     sort_type: 'descending'
+    categories: [blog]
     comment_posts: []
 
 comments:

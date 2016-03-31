@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.blog %}
-    {% if post.generator is not defined %}
-   <url>
-       <loc>{{site.url}}{{post.url}}</loc>
-        <lastmod>{{post.mtime|date(constant('DATE_ATOM'))}}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>{% if post.extension == 'md' %}0.8{% else %}0.6{% endif %}</priority>
-   </url>
-   {% elseif 'page' not in post.path %}
-   <url>
-       <loc>{{site.url}}{{post.url}}</loc>
-        <lastmod>{{post.mtime|date(constant('DATE_ATOM'))}}</lastmod>
-        <changefreq>weekly</changefreq>
+    <url>
+        <loc>{{site.url}}</loc>
+        <lastmod>{{site.time|date(constant('DATE_ATOM'))}}</lastmod>
+        <changefreq>daily</changefreq>
         <priority>1</priority>
-   </url>
-   {% endif %}
-   {% endfor %}
+    </url>
+    {% for post in site.posts %}
+    <url>
+        <loc>{{site.url}}{{post.url}}</loc>
+        <lastmod>{{post.mtime|date(constant('DATE_ATOM'))}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% endfor %}
+    {% for page in site.pages if page.title %}
+    <url>
+        <loc>{{site.url}}{{page.url}}</loc>
+        <lastmod>{{page.mtime|date(constant('DATE_ATOM'))}}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    {% endfor %}
 </urlset>
