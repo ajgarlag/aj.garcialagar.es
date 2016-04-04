@@ -1,8 +1,17 @@
 User-agent: *
-Disallow: /assets
+Disallow: /assets/
 
 User-agent: *
-Disallow: /category
+Disallow: /blog/category/
 
 User-agent: *
-Disallow: /dokuwiki
+Disallow: /blog/tag/
+
+User-agent: *
+Disallow: /blog/author/
+
+User-agent: *
+Disallow: /blog/page
+
+User-agent: *
+Disallow: /dokuwiki/
