@@ -19,6 +19,9 @@ sort_by: "date"
         </h3>
         {% endif %}
     </a>
+    {% if post.description %}
+    <p class="post-description">{{ post.description }}</p>
+    {% endif %}
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date('F jS Y, \\a\\t g:ia') }}</p>
 </div>
 <hr>

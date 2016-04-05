@@ -6,7 +6,7 @@ max_page: 5
 taxonomy_attribute: "tags"
 permalink: "/:name"
 ---
-<h2><i class="fa fa-tag"></i> {{page.term}}</h2>
+<h2>Tag <i class="fa fa-tag"></i> {{page.term}}</h2>
 {% for post in page.pagination.items %}
 <div class="post-preview">
     <a href="{{ site.url }}{{ post.url }}">
@@ -19,6 +19,9 @@ permalink: "/:name"
         </h4>
         {% endif %}
     </a>
+    {% if post.description %}
+    <p class="post-description">{{ post.description }}</p>
+    {% endif %}
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date('F jS Y, \\a\\t g:ia') }}</p>
 </div>
 <hr>
