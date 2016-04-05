@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What is wrong with CSV in PHP"
+description: "PHP CSV functions has some little gotchas related to the escape character that can lead you to unexpected results."
 date: "2016-04-04T18:11:23+00:00"
 author: ajgarlag
 header_img:

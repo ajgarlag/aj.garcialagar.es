@@ -1,5 +1,6 @@
 ---
 title: Debugging Symfony with XDebug
+description: "How to set breakpoint in your Symfony apps avoiding the class cache when a running Xdebug session is detected."
 date: "2013-11-15T20:54:12+00:00"
 author: ajgarlag
 layout: post

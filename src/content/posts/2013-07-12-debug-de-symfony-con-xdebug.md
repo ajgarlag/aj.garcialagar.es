@@ -1,5 +1,6 @@
 ---
 title: Debug de Symfony con Xdebug
+description: "Como detener la ejecución del depurador en los breakpoints definidos en el IDE evitando el cache de clases cuando se detecta una sesión de Xdebug en ejecución."
 date: "2013-07-12T20:41:50+00:00"
 author: ajgarlag
 layout: post

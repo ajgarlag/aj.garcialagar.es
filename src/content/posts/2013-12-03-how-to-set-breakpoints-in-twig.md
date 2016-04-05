@@ -1,5 +1,6 @@
 ---
 title: How to set breakpoints in Twig
+description: "Describe an small Twig Extension that introduces a new function to stop the Xdebug debugger while rendering your twig templates."
 date: "2013-12-03T09:30:25+00:00"
 author: ajgarlag
 layout: post
