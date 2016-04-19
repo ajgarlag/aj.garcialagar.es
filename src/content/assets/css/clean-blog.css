@@ -398,3 +398,6 @@ body {
 code {
   word-break: normal;
 }
+.tag-title {
+  font-size: 40px;
+}
