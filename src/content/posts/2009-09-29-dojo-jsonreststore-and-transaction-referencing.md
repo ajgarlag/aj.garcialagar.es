@@ -6,7 +6,7 @@ layout: post
 tags:
   - dojo
   - js
-  - webdev
+  - php
   - zf
   - en
 redirect_from: /blog/dojo-jsonreststore-and-transaction-referencing/

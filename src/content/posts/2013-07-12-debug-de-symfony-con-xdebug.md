@@ -11,6 +11,7 @@ header_img:
   darken: 0.25
 tags:
   - symfony
+  - php
   - es
 redirect_from: /blog/debug-de-symfony-con-xdebug/
 ---

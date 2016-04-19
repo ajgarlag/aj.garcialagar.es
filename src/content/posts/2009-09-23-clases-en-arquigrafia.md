@@ -4,7 +4,6 @@ date: "2009-09-23T12:52:47+00:00"
 author: ajgarlag
 layout: post
 tags:
-  - it
   - personal
   - es
 redirect_from: /blog/clases-en-arquigrafia/

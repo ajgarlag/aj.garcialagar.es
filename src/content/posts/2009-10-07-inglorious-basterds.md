@@ -4,9 +4,7 @@ date: "2009-10-07T13:08:53+00:00"
 author: ajgarlag
 layout: post
 tags:
-  - films
   - personal
-  - spare time
   - es
 redirect_from: /blog/inglorious-basterds/
 ---

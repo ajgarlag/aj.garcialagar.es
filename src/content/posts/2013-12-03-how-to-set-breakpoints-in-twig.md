@@ -11,6 +11,7 @@ header_img:
   darken: 0.1
 tags:
   - symfony
+  - php
   - en
 redirect_from: /blog/how-to-set-breakpoints-in-twig/
 ---

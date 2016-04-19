@@ -10,9 +10,8 @@ header_img:
   darken: 0.5
 tags:
   - debian
-  - it
-  - spare time
   - virtualization
+  - sysadmin
   - en
 redirect_from: /blog/virtualization-with-kvm-and-debian-lenny/
 comment_posts:

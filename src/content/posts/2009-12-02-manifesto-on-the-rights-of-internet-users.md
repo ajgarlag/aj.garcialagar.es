@@ -4,7 +4,6 @@ date: "2009-12-02T12:39:12+00:00"
 author: ajgarlag
 layout: post
 tags:
-  - blogging
   - internet
   - en
 redirect_from: /blog/manifesto-on-the-rights-of-internet-users/

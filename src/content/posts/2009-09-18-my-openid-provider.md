@@ -4,9 +4,7 @@ date: "2009-09-18T21:36:01+00:00"
 author: ajgarlag
 layout: post
 tags:
-  - authentication
   - internet
-  - it
   - en
 redirect_from: /blog/my-openid-provider/
 ---

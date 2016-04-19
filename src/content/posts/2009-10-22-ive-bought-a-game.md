@@ -4,10 +4,7 @@ date: "2009-10-22T19:43:55+00:00"
 author: ajgarlag
 layout: post
 tags:
-  - internet
-  - it
-  - spare time
-  - videogames
+  - games
   - en
 redirect_from: /blog/ive-bought-a-game/
 ---

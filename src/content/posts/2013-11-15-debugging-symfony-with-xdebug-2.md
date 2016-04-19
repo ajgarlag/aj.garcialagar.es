@@ -10,6 +10,7 @@ header_img:
   author_url: https://www.flickr.com/photos/javism/228077705
 tags:
   - symfony
+  - php
   - en
 redirect_from: /blog/debugging-symfony-with-xdebug-2/
 comment_posts:

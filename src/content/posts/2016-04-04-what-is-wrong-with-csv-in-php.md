@@ -9,7 +9,9 @@ header_img:
   author: Arnold Reinhold
   author_url: https://commons.wikimedia.org/wiki/File:Abramowitz%26Stegun.page97.agr.jpg
   darken: 0.4
-tags: [en,csv,php]
+tags:
+  - en
+  - php
 ---
 The PHP implementation of CSV functions has some little gotchas related to the escape character that can lead you to unexpected results if you exchange CSV data with applications not written in PHP.
 

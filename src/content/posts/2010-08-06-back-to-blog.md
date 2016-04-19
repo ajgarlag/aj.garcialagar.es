@@ -4,8 +4,6 @@ date: "2010-08-06T11:18:31+00:00"
 author: ajgarlag
 layout: post
 tags:
-  - dojo
-  - linux
   - personal
   - en
 redirect_from: /blog/back-to-blog/

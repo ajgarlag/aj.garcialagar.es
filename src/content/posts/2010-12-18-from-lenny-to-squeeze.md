@@ -9,9 +9,7 @@ header_img:
   author_url: https://www.flickr.com/photos/djnike/3676438700
 tags:
   - debian
-  - it
-  - linux
-  - os
+  - personal
   - en
 redirect_from: /blog/from-lenny-to-squeeze/
 ---

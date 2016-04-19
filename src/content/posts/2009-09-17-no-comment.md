@@ -4,7 +4,6 @@ title: No comment
 date: "2009-09-17T16:34:53+00:00"
 author: ajgarlag
 tags:
-  - blogging
   - en
 redirect_from: /blog/no-comment/
 ---

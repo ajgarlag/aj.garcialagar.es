@@ -9,7 +9,6 @@ header_img:
   author_url: http://cdn.20m.es/img/2009/12/02/1025902.jpg?v=20091202220407
   darken: 0.5
 tags:
-  - blogging
   - internet
   - es
 ---

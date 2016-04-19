@@ -5,6 +5,7 @@ author: ajgarlag
 layout: post
 tags:
   - personal
+  - internet
   - es
 redirect_from: /blog/mi-manifesto/
 ---
