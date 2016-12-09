@@ -1,22 +1,23 @@
 ---
 layout: "page"
-description: "by Antonio J. García Lagar"
 
-generator: "pagination"
-provider: "site.posts"
+generator: "taxonomy"
 max_page: 5
-sort_by: "date"
+taxonomy_attribute: "tags"
+permalink: "/:name"
 ---
+<h2 class="tag-title text-muted text-right"><i class="fa fa-tag"></i> {{page.term}}</h2>
+<hr>
 {% for post in page.pagination.items %}
 <div class="post-preview">
     <a href="{{ site.url }}{{ post.url }}">
-        <h2 class="post-title">
+        <h3 class="post-title">
             {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
         </h3>
+        {% if post.subtitle %}
+        <h4 class="post-subtitle">
+            {{ post.subtitle }}
+        </h4>
         {% endif %}
     </a>
     {% if post.description %}
@@ -27,4 +28,4 @@ sort_by: "date"
 <hr>
 {% endfor %}
 
-{% include "paginator.html" %}
+{% include "paginator.html.twig" %}
