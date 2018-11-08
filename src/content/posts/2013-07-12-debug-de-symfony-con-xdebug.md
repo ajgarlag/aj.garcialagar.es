@@ -28,7 +28,7 @@ Para simplificar la labor de depurar los recónditos rincones del _framework_ si
 Aquí está ese pequeño trozo de código que tantas veces me ha ayudado:
 
 ```php
-//This check tries to detect a XDebug session to prevent the load of class cache
+//This check tries to detect a Xdebug session to prevent the load of class cache
 if (
     !extension_loaded('xdebug') ||
     (
