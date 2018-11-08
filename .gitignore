@@ -3,3 +3,4 @@ src/plugins/
 vendor/
 node_modules/
 composer.lock
+spress.phar
